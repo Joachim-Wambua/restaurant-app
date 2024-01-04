@@ -14,7 +14,7 @@ const SpecialMenu = () => (
 
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu-wine flex__center">
-        <p className="app_specialMenu-menu-heading">Wine & Beer</p>
+        <p className="app__specialMenu-menu-heading">Wine & Beer</p>
         <div className="app__specialMenu-menu-items">
           {data.wines.map((wine, index) => (
             <MenuItem
@@ -32,7 +32,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu-cocktails flex__center">
-        <p className="app_specialMenu-menu-heading">Cocktails</p>
+        <p className="app__specialMenu-menu-heading">Cocktails</p>
         <div className="app__specialMenu-menu-items">
           {data.cocktails.map((cocktail, index) => (
             <MenuItem
