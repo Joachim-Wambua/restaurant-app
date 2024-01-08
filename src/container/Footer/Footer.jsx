@@ -22,7 +22,7 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.gericht} alt="" />
+        <img src={images.theBear} alt="" />
         <p className="p__opensans">
           "The best way to find yourself is to lose yourself in the service of
           others."
